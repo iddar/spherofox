@@ -8,6 +8,7 @@
   "dependencies": {
     "coffee-script": "*",
     "serialport": "*",
+    "keypress": "*",
     "socket.io-client": "*"
   },
   "engines": {
