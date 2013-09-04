@@ -1,0 +1,16 @@
+{
+  "name": "spherofox-client-connect",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "serialport": "*",
+    "socket.io-client": "*"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}

@@ -1,0 +1,36 @@
+extends layout
+
+block content
+	div#splash(data-role="page")
+		img(src='/img/splash.png', alt='splash')
+	div#controls(data-role="page")
+		div.ui-grid-b
+			div.ui-block-a 
+			div.ui-block-b
+				a.arriba(href="#")
+					img.fullimg(src='/img/botonarriba.png')
+			div.ui-block-c 
+		div.ui-grid-b
+			div.ui-block-a
+				a.der(href="#") 
+					img.fullimg(src='/img/botonderecha.png', style="-moz-transform: rotate(-90deg)")
+			div.ui-block-b
+				a.color(href="#") 
+					img#radar(src='/img/radar.png')
+			div.ui-block-c
+				a.izq(href="#")
+					img.izq.fullimg(src='/img/botonizquierda.png', style="-moz-transform: rotate(90deg)")
+		
+		div.mi-footer
+			a#btn(href="#acelerometro")
+				span Control por acelerometro
+
+	div#acelerometro.garden(data-role="page")
+		div.ball
+		div.log(data-role="page")
+			pre.output
+			pre.count
+
+		div.mi-footer
+			a#btn(href="#controls")
+				span Control Manual

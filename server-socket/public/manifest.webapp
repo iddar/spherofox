@@ -1,0 +1,27 @@
+{
+    "version": "0.3",
+    "name": "SpheroFox",
+    "description": "Sphero Robot & FirefoxOS",
+    "launch_path": "/",
+    "icons": {
+        "16": "http://iddarmx-spheroweb.nodejitsu.com/img/icons/icon-16.png",
+        "48": "http://iddarmx-spheroweb.nodejitsu.com/img/icons/icon-48.png",
+        "60": "http://iddarmx-spheroweb.nodejitsu.com/img/icons/icon-60.png",
+        "128": "http://iddarmx-spheroweb.nodejitsu.com/img/icons/icon-128.png"
+    },
+    "developer": {
+        "name": "Iddar Olivares Morales {@iddar}",
+        "url": "http://iddarmx-spheroweb.nodejitsu.com"
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "es": {
+            "description": "La mejor aplicacion para uso de la Tecnica Pomodoro ",
+            "developer": {
+                "url": "http://iddarmx-spheroweb.nodejitsu.com"
+            }
+        }
+    },
+    "default_locale": "en",
+    "fullscreen": "true"
+}

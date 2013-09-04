@@ -1,0 +1,13 @@
+doctype 5
+html
+  head
+    title= title
+    != css('jquery.mobile')
+    != css('app')
+    script(src="/socket.io/socket.io.js")
+    != js('jquery')
+    != js('jquery.mobile')
+    != js('app')
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+  body(class="ui-mobile-viewport")
+    block content

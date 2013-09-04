@@ -12,3 +12,8 @@ logs
 results
 
 npm-debug.log
+
+.DS_Store
+thumbs.db
+*.log
+node_modules/
